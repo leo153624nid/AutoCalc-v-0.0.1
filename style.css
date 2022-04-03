@@ -1,13 +1,14 @@
 body {
     position: absolute;
     width: 100%;
+    height: 100%;
     margin: 0px;
 }
 
 .header {
     position: fixed;
     width: 100%;
-    height: 100px;
+    height: 10%;
     background-color: brown;
     margin-top: 0px;
     display: flex;
@@ -22,7 +23,6 @@ body {
     background-color: rgb(199, 201, 201);
     font-size: 100%;
     text-align: center;
-    /* border: 2px solid black; */
     border-radius: 6px;
     display: flex;
     justify-content: center;
@@ -35,7 +35,7 @@ body {
     height: 50px;
     background-color: antiquewhite;
     display: flex;
-    margin-top: 100px;
+    margin-top: 10%;
 }
 
 #moneyForFuel {
@@ -44,6 +44,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color: rgb(199, 201, 201);
+    border: 1px solid rgb(199, 201, 201);
 
 }
 
@@ -52,15 +53,47 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 1px solid rgb(199, 201, 201);
 }
 
-#grafik {
-    width: 100%;
-    height: 600px;
+#averageConsumption {
+    width: 25%;
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 1px solid rgb(199, 201, 201);
+}
+
+#costFuel {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(199, 201, 201);
+}
+
+.content {
+    width: 100%;
+    height: 600px;
+    display: flex;
     background-color: rgb(85, 85, 88);
+    color: antiquewhite;
+}
+
+#grafik {
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#aside {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(199, 201, 201);
 }
 
 #toggle {
@@ -70,4 +103,24 @@ body {
     justify-content: center;
     align-items: center;
     background-color: rgb(59, 59, 59);
+    color: antiquewhite;
+}
+
+.blockConsumption {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(199, 201, 201);
+}
+
+.footer {
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(59, 59, 59);
+    color: antiquewhite;
+    bottom: 0px;
+    left: 0;
 }
