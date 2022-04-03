@@ -9,7 +9,6 @@ body {
 }
 
 .header {
-    
     width: 100%;
     height: 10%;
     background-color: brown;
@@ -40,7 +39,6 @@ body {
     height: 6%;
     background-color: antiquewhite;
     display: flex;
-    
     justify-content: center;
     align-items: center;
     
@@ -89,7 +87,6 @@ body {
     height: 65%;
     display: flex;
     justify-content: center;
-    
     background-color: rgb(85, 85, 88);
     color: antiquewhite;
 }
@@ -123,7 +120,6 @@ body {
 
 .blockConsumption {
     display: flex;
-    /* flex-direction: column; */
     justify-content: center;
     align-items: center;
     width: 100%;
