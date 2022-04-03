@@ -50,8 +50,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(199, 201, 201);
-    border: 1px solid rgb(199, 201, 201);
+    color: brown;
+    border-right: 1px solid rgb(199, 201, 201);
 
 }
 
@@ -61,7 +61,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid rgb(199, 201, 201);
+    border-left: 1px solid rgb(199, 201, 201);
+    border-right: 1px solid rgb(199, 201, 201);
 }
 
 #averageConsumption {
@@ -70,7 +71,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid rgb(199, 201, 201);
+    border-left: 1px solid rgb(199, 201, 201);
+    border-right: 1px solid rgb(199, 201, 201);
 }
 
 #costFuel {
@@ -79,7 +81,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid rgb(199, 201, 201);
+    border-left: 1px solid rgb(199, 201, 201);
 }
 
 .content {
@@ -124,7 +126,7 @@ body {
     align-items: center;
     width: 100%;
     flex: 1;
-    background-color: rgb(199, 201, 201);
+    background-color: antiquewhite;
 }
 
 .footer {
@@ -133,9 +135,41 @@ body {
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 50px;
+    height: 40px;
     background-color: rgb(59, 59, 59);
     color: antiquewhite;
     bottom: 0px;
     left: 0;
+}
+
+#distance {
+    width: 33.3%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid rgb(199, 201, 201);
+    
+}
+
+#fuel {
+    width: 33.3%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-left: 1px solid rgb(199, 201, 201);
+    border-right: 1px solid rgb(199, 201, 201);
+}
+
+#etc {
+    width: 33.3%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-left: 1px solid rgb(199, 201, 201);
 }
