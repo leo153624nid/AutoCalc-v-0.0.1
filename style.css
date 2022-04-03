@@ -3,17 +3,22 @@ body {
     width: 100%;
     height: 100%;
     margin: 0px;
+    display: flex;
+    flex-direction: column;
+    
 }
 
 .header {
-    position: fixed;
+    
     width: 100%;
     height: 10%;
     background-color: brown;
     margin-top: 0px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    
         
 }
 
@@ -32,14 +37,18 @@ body {
 
 .navigation {
     width: 100%;
-    height: 50px;
+    height: 6%;
     background-color: antiquewhite;
     display: flex;
-    margin-top: 10%;
+    
+    justify-content: center;
+    align-items: center;
+    
 }
 
 #moneyForFuel {
     width: 25%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -50,6 +59,7 @@ body {
 
 #averageDistance {
     width: 25%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -58,6 +68,7 @@ body {
 
 #averageConsumption {
     width: 25%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -66,6 +77,7 @@ body {
 
 #costFuel {
     width: 25%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -74,8 +86,10 @@ body {
 
 .content {
     width: 100%;
-    height: 600px;
+    height: 65%;
     display: flex;
+    justify-content: center;
+    
     background-color: rgb(85, 85, 88);
     color: antiquewhite;
 }
@@ -100,6 +114,7 @@ body {
     width: 100%;
     height: 25px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: rgb(59, 59, 59);
@@ -108,15 +123,19 @@ body {
 
 .blockConsumption {
     display: flex;
+    /* flex-direction: column; */
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 100px;
+    flex: 1;
     background-color: rgb(199, 201, 201);
 }
 
 .footer {
-    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     height: 50px;
     background-color: rgb(59, 59, 59);
