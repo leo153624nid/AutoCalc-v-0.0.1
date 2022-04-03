@@ -19,7 +19,7 @@ body {
 .choosenCar {
     width: 200px;
     height: 50px;
-    background-color: gray;
+    background-color: rgb(199, 201, 201);
     font-size: 100%;
     text-align: center;
     /* border: 2px solid black; */
@@ -52,4 +52,22 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#grafik {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(85, 85, 88);
+}
+
+#toggle {
+    width: 100%;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(59, 59, 59);
 }
