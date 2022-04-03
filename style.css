@@ -38,8 +38,8 @@ body {
     margin-top: 100px;
 }
 
-#everyMonth {
-    width: 50%;
+#moneyForFuel {
+    width: 25%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -47,8 +47,8 @@ body {
 
 }
 
-#average {
-    width: 50%;
+#averageDistance {
+    width: 25%;
     display: flex;
     justify-content: center;
     align-items: center;
