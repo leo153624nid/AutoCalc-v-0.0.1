@@ -1,4 +1,6 @@
 body {
+    position: absolute;
+    width: 100%;
     margin: 0px;
 }
 
@@ -15,7 +17,7 @@ body {
 }
 
 .choosenCar {
-    width: 100px;
+    width: 200px;
     height: 50px;
     background-color: gray;
     font-size: 100%;
@@ -26,4 +28,12 @@ body {
     justify-content: center;
     align-items: center;
   
+}
+
+.navigation {
+    width: 100%;
+    height: 50px;
+    background-color: antiquewhite;
+    display: flex;
+    margin-top: 100px;
 }
