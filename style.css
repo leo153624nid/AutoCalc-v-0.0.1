@@ -27,11 +27,13 @@ body {
     display: flex;
     justify-content: center;
     /* background-color: rgb(85, 85, 88); */
-    background-image: url(bmw_e86_4_1.jpg);
+    /* background-image: url(bmw_e86_4_1.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
     
 }
+
+
 
 .carChoose {
     border: 1px solid rgb(199, 201, 201);
