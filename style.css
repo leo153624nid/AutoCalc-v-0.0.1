@@ -33,8 +33,6 @@ body {
     
 }
 
-
-
 .carChoose {
     border: 1px solid rgb(199, 201, 201);
     width: 50%;
@@ -45,17 +43,23 @@ body {
     color: antiquewhite;
 }
 
-#aside {
-    width: 25%;
+.aside {
+    width: 10%;
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
     background-color: rgb(199, 201, 201);
     
 }
 
+#asideLeft {
+    border: 1 solid red;
+}
 
+#asideRight {
+    border: 1 solid red;
+}
 
 
 
