@@ -26,6 +26,7 @@ body {
     flex: 1;
     display: flex;
     justify-content: center;
+    align-items: center;
     color: antiquewhite;
     background-image: url(bmw_e86_4_1.jpg);
     /* background-repeat: no-repeat; */
@@ -45,16 +46,18 @@ body {
 
 .aside {
     width: 10%;
+    min-width: 50px;
+    height: 250px;
     display: flex;
-    /* flex-direction: column;
     justify-content: center;
-    align-items: center; */
+    align-items: center;
     background-color: rgb(199, 201, 201);
     
 }
 
 #asideLeft {
-    border: 1 solid red;
+    left: 0;
+
 }
 
 #asideRight {
