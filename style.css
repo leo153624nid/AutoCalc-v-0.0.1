@@ -46,7 +46,7 @@ body {
 
 .aside {
     width: 10%;
-    min-width: 50px;
+    min-width: 76px;
     height: 250px;
     display: flex;
     justify-content: center;
@@ -55,13 +55,21 @@ body {
     
 }
 
+.aside:hover {
+    margin-bottom: 5px;
+    
+}
+
 #asideLeft {
     left: 0;
-
+    background: transparent url(arrow-prev.png) no-repeat;
+    margin-right: 10px;
 }
 
 #asideRight {
-    
+    right: 0;
+    background: transparent url(arrow-next.png) no-repeat;
+    margin-left: 10px;
 }
 
 
