@@ -70,7 +70,7 @@ body {
 }
 
 #asideLeft:hover {
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, .3);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .5);
 }
 
 #asideRight {
@@ -80,7 +80,7 @@ body {
 }
 
 #asideRight:hover {
-    box-shadow: -5px 5px 5px rgba(0, 0, 0, .3);
+    box-shadow: -5px 5px 5px rgba(0, 0, 0, .5);
 }
 
 
