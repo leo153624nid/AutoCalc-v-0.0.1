@@ -36,7 +36,8 @@ body {
 
 .carChoose {
     border: 1px solid rgb(199, 201, 201);
-    width: 50%;
+    width: 30%;
+    z-index: 1;
     
 }
 
@@ -45,33 +46,42 @@ body {
 }
 
 .aside {
-    width: 10%;
-    min-width: 76px;
-    height: 250px;
+    position: relative;
+    width: 76px;
+    height: 178px;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     background-color: rgb(199, 201, 201);
-    
+    background-size: cover;
+    z-index: 2;
+    cursor: pointer;
 }
 
-.aside:hover {
-    margin-bottom: 5px;
+.aside:active {
+    margin-bottom: 8px;
     
 }
 
 #asideLeft {
     left: 0;
     background: transparent url(arrow-prev.png) no-repeat;
-    margin-right: 10px;
+    
+}
+
+#asideLeft:hover {
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .3);
 }
 
 #asideRight {
     right: 0;
     background: transparent url(arrow-next.png) no-repeat;
-    margin-left: 10px;
+    
 }
 
+#asideRight:hover {
+    box-shadow: -5px 5px 5px rgba(0, 0, 0, .3);
+}
 
 
 
