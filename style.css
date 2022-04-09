@@ -28,7 +28,7 @@ body {
     justify-content: center;
     align-items: center;
     color: antiquewhite;
-    background-image: url(bmw_e86_4_1.jpg);
+    background-image: url(content/bmw_e86_4_1.jpg);
     /* background-repeat: no-repeat; */
     background-size: cover;
     
@@ -65,7 +65,7 @@ body {
 
 #asideLeft {
     left: 0;
-    background: transparent url(arrow-prev.png) no-repeat;
+    background: transparent url(content/arrow-prev.png) no-repeat;
     
 }
 
@@ -75,7 +75,7 @@ body {
 
 #asideRight {
     right: 0;
-    background: transparent url(arrow-next.png) no-repeat;
+    background: transparent url(content/arrow-next.png) no-repeat;
     
 }
 
