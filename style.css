@@ -11,14 +11,50 @@ body {
 
 .header {
     width: 100%;
-    height: 10%;
+    height: 100px;
     background-color: brown;
     margin-top: 0px;
     display: flex;
-    /* flex-direction: row; */
     justify-content: center;
     align-items: center;
+    font-size: 20px;
      
+}
+
+.authorization {
+    width: 150px;
+    min-width: 100px;
+    height: 50px;
+    margin-left: 25px;
+    background-color: rgb(199, 201, 201);
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.brendName {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    color: antiquewhite;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 200%;
+    /* font-style: italic; */
+}
+
+.addCar {
+    width: 150px;
+    min-width: 100px;
+    height: 50px;
+    margin-right: 25px;
+    background-color: rgb(199, 201, 201);
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #content {
@@ -59,7 +95,7 @@ body {
 }
 
 .aside:active {
-    margin-bottom: 8px;
+    margin-top: 8px;
     
 }
 
