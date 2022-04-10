@@ -83,7 +83,7 @@ body {
 .carChoose:hover {
     opacity: 1;
     color: brown;
-    transform: 1500;
+    transition: 0.5s;
 }
 
 #car1 {
@@ -105,7 +105,7 @@ body {
     background-color: antiquewhite;
     display: flex;
     flex-direction: column;
-    
+    border-radius: 6px;
 }
 
 .addButtons {
@@ -125,6 +125,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 6px;
 }
 
 .aside {
