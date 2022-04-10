@@ -6,6 +6,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: rgb(59, 59, 59);
+    justify-content: flex-start;
     
 }
 
@@ -60,12 +61,13 @@ body {
 #content {
     width: 100%;
     flex: 1;
+    /* height: 650px; */
     display: flex;
     justify-content: center;
     align-items: center;
     
     background-image: url(content/bmw_e86_4_1.jpg);
-    /* background-repeat: no-repeat; */
+    background-repeat: no-repeat;
     background-size: cover;
 }
 
